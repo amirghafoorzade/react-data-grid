@@ -1,0 +1,14 @@
+.data-grid {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cell {
+  text-align: start;
+  padding: 0.25rem 0.75rem;
+  border-bottom: 1px solid #000;
+}
+
+.cell > * {
+  float: inline-start;
+}
